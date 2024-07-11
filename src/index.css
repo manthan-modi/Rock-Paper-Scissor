@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer base {
+}
+@font-face {
+  font-family: 'Roboto';  
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 500px;
+  src: url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+} */
+
+.ProjectTitle {
+    font-family: 'Roboto, Franklin Gothic Medium';
+    color: red;
+    font-size: min(50ch, 30px);
+    font-weight: 600;
+    text-align: center; 
+    border: 2px solid black;
+    width: min(1500px, 100%);
+    background-color: #69b7f3;
+}
+
+.div-ProjectTitle {
+    padding: 0rem;
+}
+
+button{
+    border: solid black;
+    border-radius: 2rem;
+    background-color: #9696de;
+    color: aliceblue;
+}
+.button {
+    margin: min(5em,80px);
+    padding: min(2em,2px);
+}
+
+button:hover {
+    background-color: #6666ad
+}
+
+
