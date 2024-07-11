@@ -44,4 +44,11 @@ button:hover {
     background-color: #6666ad
 }
 
+h2 {
+    text-align: center;
+    margin: 2rem;
+    size: 20em;
+    color: #69b7f3;
+}
+
 
