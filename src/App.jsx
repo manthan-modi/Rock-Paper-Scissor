@@ -11,6 +11,7 @@ function App() {
     userChoice: "",
     computerChoice: ""
   });
+  const [gamneOver, setGameOver]  = useState(false);
   const onClicked = (userOption)=> {
     const compOptions = ["Rock", "Paper", "Scissor"];
     const inde = Math.floor(Math.random() * 3);

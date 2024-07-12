@@ -33,7 +33,7 @@ button{
     border: solid black;
     border-radius: 2rem;
     background-color: #9696de;
-    color: aliceblue;
+    color: red;
 }
 .button {
     margin: min(5em,80px);
@@ -45,10 +45,39 @@ button:hover {
 }
 
 h2 {
-    text-align: center;
     margin: 2rem;
     size: 20em;
-    color: #69b7f3;
+    color: red;
 }
 
+.score-board {
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.choice {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    border: black solid;
+    width: max(100px,25%);
+    margin: auto;
+    background-color: #69b7f3;
+}
+
+.score-count {
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    width: max(100px, 25%);
+    margin: 1rem;
+    background-color: #69b7f3;
+}
+
+.Winner {
+    color: green;
+    font-size: 2rem
+}
 
